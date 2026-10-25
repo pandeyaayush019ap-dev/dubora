@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0C0A0C;
+  --foreground: #F6F2F1;
+  --heather-dark: #130F12;
+  --heather-surface: #1B1519;
+  --heather-border: #32292F;
+  --dusky-pink: #B1968F;
+  --fern: #5B7373;
+  --eucalyptus: #9BA9AA;
+  --quartz: #E9DBD8;
+  --feather: #F6F2F1;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Custom scrollbars matching the cinematic dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #130F12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #32292F;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #624F55;
+}
+
+/* Glass panel effects */
+.glass-panel {
+  background: rgba(27, 21, 25, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(177, 150, 143, 0.15);
+}
+
+.glass-panel-elevated {
+  background: rgba(34, 28, 32, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(177, 150, 143, 0.22);
+}
+
+/* Timeline grid pattern */
+.timeline-grid {
+  background-size: 40px 100%;
+  background-image: linear-gradient(to right, rgba(98, 79, 85, 0.15) 1px, transparent 1px);
+}

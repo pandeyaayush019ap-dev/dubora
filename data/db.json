@@ -1,0 +1,316 @@
+{
+  "profiles": [
+    {
+      "id": "user-default",
+      "email": "creator@dubora.ai",
+      "displayName": "Dubora Creator",
+      "preferredLanguage": "en",
+      "createdAt": "2026-10-25T17:07:59.344Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "ws-default",
+      "name": "Default Workspace",
+      "ownerId": "user-default",
+      "planId": "creator",
+      "monthlySourceMinutesLimit": 120,
+      "createdAt": "2026-10-25T17:07:59.341Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "9fdffb82-1b36-494d-80dc-a0c170948bfc",
+      "workspaceId": "ws-default",
+      "title": "demo",
+      "sourceLanguage": "hi",
+      "targetLanguages": [
+        "en"
+      ],
+      "status": "draft",
+      "createdAt": "2026-10-25T17:28:19.170Z",
+      "updatedAt": "2026-10-25T17:28:19.170Z"
+    },
+    {
+      "id": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "workspaceId": "ws-default",
+      "title": "Product Keynote Localization",
+      "sourceLanguage": "en",
+      "targetLanguages": [
+        "es",
+        "de",
+        "ja"
+      ],
+      "status": "completed",
+      "createdAt": "2026-10-25T17:12:14.518Z",
+      "updatedAt": "2026-10-25T17:33:35.670Z",
+      "originalAssetId": "84bf77aa-e8ec-4e1d-a33e-a541c39de5ee",
+      "durationSeconds": 2
+    }
+  ],
+  "mediaAssets": [
+    {
+      "id": "f5527da6-9bd0-4ae5-b301-8bf73114aa5e",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "thumbnail",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/thumbnail.jpg",
+      "mimeType": "image/jpeg",
+      "fileSize": 2024,
+      "durationSeconds": 0,
+      "createdAt": "2026-10-25T17:12:22.543Z"
+    },
+    {
+      "id": "84bf77aa-e8ec-4e1d-a33e-a541c39de5ee",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "original_video",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/original_video.mp4",
+      "mimeType": "video/mp4",
+      "fileSize": 23206,
+      "durationSeconds": 2,
+      "metadata": {
+        "width": 320,
+        "height": 240,
+        "frameRate": 25,
+        "videoCodec": "h264",
+        "audioCodec": "aac"
+      },
+      "createdAt": "2026-10-25T17:12:22.545Z"
+    },
+    {
+      "id": "f5407892-dee1-4087-b74e-465a06d35419",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "thumbnail",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/thumbnail.jpg",
+      "mimeType": "image/jpeg",
+      "fileSize": 2024,
+      "durationSeconds": 0,
+      "createdAt": "2026-10-25T17:28:58.283Z"
+    },
+    {
+      "id": "8b6279ab-305f-4cba-a26b-4937c8990499",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "extracted_audio",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/extracted_audio.mp3",
+      "mimeType": "audio/mpeg",
+      "fileSize": 50302,
+      "durationSeconds": 2,
+      "createdAt": "2026-10-25T17:28:58.638Z"
+    },
+    {
+      "id": "0cca3220-1766-4ef4-bd68-f867cac6e4db",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "thumbnail",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/thumbnail.jpg",
+      "mimeType": "image/jpeg",
+      "fileSize": 2024,
+      "durationSeconds": 0,
+      "createdAt": "2026-10-25T17:33:26.751Z"
+    },
+    {
+      "id": "46706625-1b22-4de4-a247-4023f1291591",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "extracted_audio",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/extracted_audio.mp3",
+      "mimeType": "audio/mpeg",
+      "fileSize": 50302,
+      "durationSeconds": 2,
+      "createdAt": "2026-10-25T17:33:27.018Z"
+    },
+    {
+      "id": "f59f756d-117b-4673-a3e8-8b98a6c1555a",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "dubbed_audio",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/dubbed_es.mp3",
+      "mimeType": "audio/mpeg",
+      "fileSize": 276420,
+      "durationSeconds": 2,
+      "createdAt": "2026-10-25T17:33:35.348Z"
+    },
+    {
+      "id": "4ac5c9a9-3bc0-45a5-a16c-cfd7afb9af92",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "assetType": "rendered_video",
+      "storageKey": "projects/0641fc30-8187-4708-b344-169a98f8f6d0/rendered_es.mp4",
+      "mimeType": "video/mp4",
+      "fileSize": 25065,
+      "durationSeconds": 2,
+      "metadata": {
+        "width": 320,
+        "height": 240,
+        "videoCodec": "h264",
+        "audioCodec": "aac"
+      },
+      "createdAt": "2026-10-25T17:33:35.666Z"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": "cebd85ff-5252-4e8f-8004-a4ac501feada",
+      "projectId": "a8b64590-f58c-4866-935b-1c7a1c6913a5",
+      "version": 1,
+      "sourceLanguage": "en",
+      "status": "ready",
+      "segments": [
+        {
+          "id": "seg-1",
+          "transcriptId": "cebd85ff-5252-4e8f-8004-a4ac501feada",
+          "sequenceNumber": 1,
+          "startSeconds": 0,
+          "endSeconds": 3.5,
+          "sourceText": "Hello world",
+          "translatedText": "Hola mundo",
+          "targetLanguage": "es",
+          "confidence": 0.98
+        }
+      ],
+      "createdAt": "2026-10-25T17:07:59.365Z",
+      "updatedAt": "2026-10-25T17:07:59.365Z"
+    },
+    {
+      "id": "ab1552a4-3b53-4ed3-bcb1-3495f6b9e345",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "version": 1,
+      "sourceLanguage": "en",
+      "segments": [
+        {
+          "id": "6eaabd8a-3588-4fc4-b192-ebfe27f6dbe1",
+          "transcriptId": "ab1552a4-3b53-4ed3-bcb1-3495f6b9e345",
+          "sequenceNumber": 1,
+          "startSeconds": 0,
+          "endSeconds": 4.5,
+          "sourceText": "Welcome to Dubora. We are demonstrating artificial intelligence video dubbing.",
+          "confidence": 0.95,
+          "speakerName": "Speaker 1 (Lead)",
+          "translatedText": "Bienvenido a Dubora. Estamos demostrando el doblaje de vídeo de inteligencia artificial.",
+          "targetLanguage": "es",
+          "status": "translated"
+        },
+        {
+          "id": "1d59ef77-c7a4-4ee9-a4a1-a48b106fe140",
+          "transcriptId": "ab1552a4-3b53-4ed3-bcb1-3495f6b9e345",
+          "sequenceNumber": 2,
+          "startSeconds": 4.6,
+          "endSeconds": 9,
+          "sourceText": "This video dialogue has been synchronized and localized into your target language.",
+          "confidence": 0.92,
+          "speakerName": "Speaker 1 (Lead)",
+          "translatedText": "Este diálogo de vídeo se ha sincronizado y localizado en su idioma de destino.",
+          "targetLanguage": "es",
+          "status": "translated"
+        }
+      ],
+      "status": "ready",
+      "createdAt": "2026-10-25T17:33:29.199Z",
+      "updatedAt": "2026-10-25T17:33:32.640Z"
+    }
+  ],
+  "segments": [
+    {
+      "id": "seg-1",
+      "transcriptId": "cebd85ff-5252-4e8f-8004-a4ac501feada",
+      "sequenceNumber": 1,
+      "startSeconds": 0,
+      "endSeconds": 3.5,
+      "sourceText": "Hello world",
+      "translatedText": "Hola a todos",
+      "targetLanguage": "es",
+      "confidence": 0.98
+    },
+    {
+      "id": "6eaabd8a-3588-4fc4-b192-ebfe27f6dbe1",
+      "transcriptId": "ab1552a4-3b53-4ed3-bcb1-3495f6b9e345",
+      "sequenceNumber": 1,
+      "startSeconds": 0,
+      "endSeconds": 4.5,
+      "sourceText": "Welcome to Dubora. We are demonstrating artificial intelligence video dubbing.",
+      "confidence": 0.95,
+      "speakerName": "Speaker 1 (Lead)",
+      "translatedText": "Bienvenido a Dubora. Estamos demostrando el doblaje de vídeo de inteligencia artificial.",
+      "targetLanguage": "es",
+      "status": "translated"
+    },
+    {
+      "id": "1d59ef77-c7a4-4ee9-a4a1-a48b106fe140",
+      "transcriptId": "ab1552a4-3b53-4ed3-bcb1-3495f6b9e345",
+      "sequenceNumber": 2,
+      "startSeconds": 4.6,
+      "endSeconds": 9,
+      "sourceText": "This video dialogue has been synchronized and localized into your target language.",
+      "confidence": 0.92,
+      "speakerName": "Speaker 1 (Lead)",
+      "translatedText": "Este diálogo de vídeo se ha sincronizado y localizado en su idioma de destino.",
+      "targetLanguage": "es",
+      "status": "translated"
+    }
+  ],
+  "speakers": [],
+  "jobs": [
+    {
+      "id": "cd33ac27-106a-42a2-a4f2-700e7202a3e7",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "targetLanguage": "es",
+      "provider": "modular",
+      "status": "completed",
+      "stage": "finalizing_export",
+      "progress": 100,
+      "attemptCount": 1,
+      "createdAt": "2026-10-25T17:33:26.126Z",
+      "updatedAt": "2026-10-25T17:33:35.670Z",
+      "startedAt": "2026-10-25T17:33:26.137Z",
+      "completedAt": "2026-10-25T17:33:35.669Z"
+    },
+    {
+      "id": "75ed3882-5fed-40eb-b868-5ff2680d33e5",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "targetLanguage": "es",
+      "provider": "elevenlabs",
+      "status": "failed",
+      "stage": "generating_voices",
+      "progress": 45,
+      "attemptCount": 1,
+      "createdAt": "2026-10-25T17:28:57.612Z",
+      "updatedAt": "2026-10-25T17:28:59.318Z",
+      "startedAt": "2026-10-25T17:28:57.617Z",
+      "errorCode": "PROCESSING_ERROR",
+      "errorMessage": "ElevenLabs dubbing creation failed [401]: {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission dubbing_write to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"9094d3d54e14b2d427d1302c6466c2a7\"}}"
+    }
+  ],
+  "exports": [
+    {
+      "id": "956b58e9-b2b4-41f1-9579-c54c61be9a48",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "dubbingJobId": "cd33ac27-106a-42a2-a4f2-700e7202a3e7",
+      "language": "es",
+      "assetId": "4ac5c9a9-3bc0-45a5-a16c-cfd7afb9af92",
+      "format": "mp4",
+      "durationSeconds": 2,
+      "downloadUrl": "http://localhost:3000/api/media/stream?key=projects%2F0641fc30-8187-4708-b344-169a98f8f6d0%2Frendered_es.mp4",
+      "status": "ready",
+      "createdAt": "2026-10-25T17:33:35.667Z"
+    }
+  ],
+  "usageEvents": [
+    {
+      "id": "5642f2ae-34d1-4ec1-a97a-e15a5eca5b12",
+      "workspaceId": "ws-default",
+      "projectId": "0641fc30-8187-4708-b344-169a98f8f6d0",
+      "jobId": "cd33ac27-106a-42a2-a4f2-700e7202a3e7",
+      "eventType": "dubbing",
+      "quantity": 2,
+      "unit": "seconds",
+      "estimatedCost": 0.1,
+      "actualCost": 0.1,
+      "provider": "elevenlabs",
+      "idempotencyKey": "job-cd33ac27-106a-42a2-a4f2-700e7202a3e7-dubbing",
+      "createdAt": "2026-10-25T17:33:35.668Z"
+    }
+  ]
+}
